@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="12" tilewidth="40" tileheight="40" nextobjectid="1">
+ <tileset firstgid="1" name="mario_tileset_40_40" tilewidth="40" tileheight="40" tilecount="256" columns="16">
+  <image source="mario_tileset_40_40.png" width="640" height="640"/>
+  <tile id="7">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="257" name="heros" tilewidth="40" tileheight="40" tilecount="42" columns="7">
+  <image source="mario-sprite.png" width="300" height="264"/>
+ </tileset>
+ <tileset firstgid="299" name="sd" tilewidth="40" tileheight="40" tilecount="588" columns="21">
+  <image source="mario33-sprits.png" width="870" height="1139"/>
+ </tileset>
+ <layer name="environment" width="60" height="12">
+  <properties>
+   <property name="collidable" value="true"/>
+   <property name="type" value="static"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztkkEKgDAMBKP10Kv1Dfn/F81F0BJjmy2KkIGhUOgmCyUKgmAEuVHrTRD0kG9ODXbkoXz1p5mufVu6/xUmva/WeRJnMb2wl4V3PpPdt+68ikXcnPNQFtBUeXC+680cud/TvqhaX28GmqO5Az3yBKo=
+  </data>
+ </layer>
+ <layer name="enemies" width="60" height="12">
+  <properties>
+   <property name="collidable" value="true"/>
+   <property name="type" value="dynamic"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4C+gG+gHUAjwEIkHgWjYBSMgpEISC37qVlXkGsWKfqGa902CrADAGc2AH0=
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="60" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBjaQGCgHUBnMOrf4Q1G/Tu8wUjz7ygYBaNgFAxXAAAabQBh
+  </data>
+ </layer>
+</map>

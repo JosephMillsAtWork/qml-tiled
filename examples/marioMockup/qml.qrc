@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>mario.tmx</file>
+        <file>RenderImage.qml</file>
+        <file>testTiled.js</file>
+        <file>mario.png</file>
+        <file>mario_tileset_40_40.png</file>
+    </qresource>
+</RCC>
